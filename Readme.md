@@ -1,8 +1,8 @@
-AS A business owner
-I WANT to be able to view and manage the departments, roles, and employees in my company
-SO THAT I can organize and plan my business
+AS A company owner
+I need to be able to view and manage the departments, roles, and employees in my company
+This should allow me to manage, view, arrange and review my statistics within company level app.
 
-GIVEN a command-line application that accepts user input
+
 WHEN I start the application
 THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
 WHEN I choose to view all departments
@@ -16,11 +16,13 @@ THEN I am prompted to enter the name of the department and that department is ad
 WHEN I choose to add a role
 THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
 WHEN I choose to add an employee
-THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
+THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database.
+WHEN I choose to remove an employee, i am prompted to choose from the list, then select the employee easily to remove.
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 
 
-THEN I exit the application, and the HTML is generated for final results.
+THEN I can choose to exit the application, and the HTML is generated for final results.
 
-Final Demo Image/Video:
+Final Demo Image below:
+![Alt text](image.png)
